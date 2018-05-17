@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	img{
+		border-radius: 50%;
+	}
+	#borde-imagen{
+		border: 10px solid transparent;
+		padding: 15px;
+		border-image: url(border.png)30 round;
+		width: 300px;
+	}
+	#mifondo{
+		background-image: url(img_flwr.gif),url(paper.gif);
+		background-position: right bottom, left top;
+		background-repeat: no-repeat, repeat;
+		padding: 15px 200px 15px 15px;
+		background-size: 100px 100px;
+	}
+	#gradiente-1{
+		width: 500px;
+		height: 200px;
+		background: blue;
+		background: linear-gradient(blue,black,white,pink,purple,red);
+	}
+	#gradiente-2{
+		width: 500px;
+		height: 200px;
+		background: blue;
+		background: linear-gradient(to right,blue,black,peru,orange);
+	}
+	#gradiente-3{
+		width: 500px;
+		height: 200px;
+		background: blue;
+		background: linear-gradient(to bottom right,pink,white,violet);
+	}
+	#gradiente-4{
+		width: 500px;
+		height: 200px;
+		background: blue;
+		background: repeating-radial-gradient(circle,white 5%,blue 15%,black 60%); 
+	}
+</style>
+</head>
+<body>
+	<img src="bird.jpg">
+	<br>
+	<div id="borde-imagen">
+		<h1>Esta division usa como borde una imagen</h1>
+	</div>
+	<div id="mifondo">
+		<h1>Bienvenidos</h1>
+		<p>Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles <br>
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br> 
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br> 
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br> 
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br> 
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br>
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles<br>
+			Esta pagina personalizado con imagenes, posiciones, las imagenes se repiten cada 100 pixeles
+		</p> 
+	</div>
+	<br>
+	<div id="gradiente-1"></div>
+	<br>
+	<div id="gradiente-2"></div>	
+	<br>
+	<div id="gradiente-3"></div>
+	<br>
+	<div id="gradiente-4"></div>
+</body>
+</html>
